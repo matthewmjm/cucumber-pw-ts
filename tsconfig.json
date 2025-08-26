@@ -13,19 +13,20 @@
 		"strict": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
 		// For nodejs:
 		// "lib": ["esnext"],
 		// "types": ["node"],
 		// and npm install -D @types/node
 
 		// Other Outputs
-		"sourceMap": true,
-		"declaration": true,
-		"declarationMap": true,
+		// "sourceMap": true,
+		// "declaration": true,
+		// "declarationMap": true,
 
 		// Stricter Typechecking Options
-		"noUncheckedIndexedAccess": true,
-		"exactOptionalPropertyTypes": true,
+		// "noUncheckedIndexedAccess": true,
+		// "exactOptionalPropertyTypes": true,
 
 		// Style Options
 		// "noImplicitReturns": true,
@@ -36,13 +37,13 @@
 		// "noPropertyAccessFromIndexSignature": true,
 
 		// Recommended Options
-		"resolveJsonModule": true,
-		"jsx": "react-jsx",
-		"verbatimModuleSyntax": true,
-		"isolatedModules": true,
-		"noUncheckedSideEffectImports": true,
-		"moduleDetection": "force",
-		"skipLibCheck": true
+		"resolveJsonModule": true
+		// "jsx": "react-jsx",
+		// "verbatimModuleSyntax": true,
+		// "isolatedModules": true,
+		// "noUncheckedSideEffectImports": true,
+		// "moduleDetection": "force",
+		// "skipLibCheck": true
 	},
 	"include": ["src/.**/*.ts"],
 	"exclude": ["node_modules"]
